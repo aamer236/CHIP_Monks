@@ -9,11 +9,10 @@ Maintainer : [keval](https://github.com/kevalpattani)
 Please Read [CONTRIBUTING.md](./CONTRIBUTING.md) before proceeding.
 
 ## Setup Instructions
-1. You can use Vivado by Xilinx for testing out your design
+1. You can use following(any) Tools: Vivado, Quartus lite, Icarus Verilog, GTKWave, Verilator.
 2. For Graphical Implementation you can donwload Verilator [here](https://verilator.org/guide/latest/install.html) and explore raylib [here](https://www.raylib.com/).
 
 ## Note
 **Mandatory for all the changes**
 1. if ur change effect the [design](./src) you have change/update testbench accordingly.
 2. U have to provide a screenshot of proof of waveform or logs to prove that your code/changes are working.
-
