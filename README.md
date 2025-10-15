@@ -6,7 +6,10 @@ Detailed Explanation of this project is given [here](https://homebrew.hsp-ec.xyz
 
 Maintainer : [keval](https://github.com/kevalpattani)
 
-Please Read [CONTRIBUTING.md](./CONTRIBUTING.md) before proceeding.
+> [!IMPORTANT]
+> Please check out [CONTRIBUTING.md](./CONTRIBUTING.md) before proceeding to contributing.
+> 
+> Please read [CHIP-Monks Article](https://homebrew.hsp-ec.xyz/posts/tilde-4.0-chip-monks:-hardware-implementation-of-chip-8/) for better understanding if the project.
 
 ## Setup Instructions
 1. You can use following(any) Tools: Vivado, Quartus lite, Icarus Verilog, GTKWave, Verilator.
@@ -14,5 +17,5 @@ Please Read [CONTRIBUTING.md](./CONTRIBUTING.md) before proceeding.
 
 ## Note
 **Mandatory for all the changes**
-1. if ur change effect the [design](./src) you have change/update testbench accordingly.
-2. U have to provide a screenshot of proof of waveform or logs to prove that your code/changes are working.
+1. Any modifications/changes to design must be accompanied by corresponding updates to the testbench(s).
+2. You have to provide a screenshot of waveform or logs after modifying the design to prove that your code/design/changes are working.
