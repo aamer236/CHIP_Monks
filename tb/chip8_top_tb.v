@@ -19,6 +19,8 @@ module chip8_top_testbench();
 
     initial begin
 
+        $dumpfile("chip8_top_tb.vcd");
+        $dumpvars(0, chip8_top_testbench);
         key_pressed = 16'd0;
         reset = 1;
         
