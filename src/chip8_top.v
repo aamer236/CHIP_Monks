@@ -37,10 +37,10 @@ module chip8_top(
         .draw_row_index(draw_row_index)
     );
 
+    // Corrected instantiation: .read(mem_read) has been removed.
     chip8_mem mem (
         .clk(clk),
         .write(mem_write),
-        .read(mem_read),
         .mem_data_in(mem_data_in),
         .mem_data_out(mem_data_out),
         .mem_address(mem_addr_out)
